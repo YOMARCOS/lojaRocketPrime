@@ -1,0 +1,45 @@
+*{Font-family: Candara;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.bg-color-bg{
+    background-color: #d9d9d9;
+
+}
+
+input{
+    border-radius: 10px;
+border: none;
+}
+form{
+
+    border-radius: 10px;
+}
+input:focus{
+    outline: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+  
+   
+}
+.anime-card img{
+    border-radius: 10px;
+   height: 200px
+}
+h5{
+    font-size: 25px;
+    color: black;
+}
+.carousel-inner {
+    max-height: 500px; /* Defina a altura máxima desejada para o carrossel */
+}
+
+.carousel-inner img {
+    height: auto;
+    width: 100%;
+}

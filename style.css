@@ -6,10 +6,18 @@ body{
     height: 100vh;
 }
 .bg-color-bg{
-    background-color: #d9d9d9;
+    background-color: #e1e1e1;
 
 }
 
+.bg-color-primary{
+    background-color: #a4a4a4;
+
+}
+.bg-color-footer{
+    background-color: #414141;
+
+}
 input{
     border-radius: 10px;
 border: none;
@@ -29,7 +37,7 @@ img{
 }
 .anime-card img{
     border-radius: 10px;
-   height: 200px
+   height:90px
 }
 h5{
     font-size: 25px;
@@ -42,4 +50,13 @@ h5{
 .carousel-inner img {
     height: auto;
     width: 100%;
+}
+.font-desconto{
+    font-weight: 1000;
+    color: rgb(255, 0, 0)
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s
 }

@@ -10,99 +10,102 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
+<body class="bg-color-bg">
     <header>
-            <nav class="navbar navbar-expand-lg bg-color-bg fixed-top  ">
-                <div class="container-fluid ">
-                    <a class="navbar-brand " href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                            fill="currentColor" class="bi bi-rocket" viewBox="0 0 16 16">
-                            <path d="M8 8c.828 0 1.5-.895 1.5-2S8.828 4 8 4s-1.5.895-1.5 2S7.172 8 8 8Z" />
-                            <path
-                                d="M11.953 8.81c-.195-3.388-.968-5.507-1.777-6.819C9.707 1.233 9.23.751 8.857.454a3.495 3.495 0 0 0-.463-.315A2.19 2.19 0 0 0 8.25.064.546.546 0 0 0 8 0a.549.549 0 0 0-.266.073 2.312 2.312 0 0 0-.142.08 3.67 3.67 0 0 0-.459.33c-.37.308-.844.803-1.31 1.57-.805 1.322-1.577 3.433-1.774 6.756l-1.497 1.826-.004.005A2.5 2.5 0 0 0 2 12.202V15.5a.5.5 0 0 0 .9.3l1.125-1.5c.166-.222.42-.4.752-.57.214-.108.414-.192.625-.281l.198-.084c.7.428 1.55.635 2.4.635.85 0 1.7-.207 2.4-.635.067.03.132.056.196.083.213.09.413.174.627.282.332.17.586.348.752.57l1.125 1.5a.5.5 0 0 0 .9-.3v-3.298a2.5 2.5 0 0 0-.548-1.562l-1.499-1.83ZM12 10.445v.055c0 .866-.284 1.585-.75 2.14.146.064.292.13.425.199.39.197.8.46 1.1.86L13 14v-1.798a1.5 1.5 0 0 0-.327-.935L12 10.445ZM4.75 12.64C4.284 12.085 4 11.366 4 10.5v-.054l-.673.82a1.5 1.5 0 0 0-.327.936V14l.225-.3c.3-.4.71-.664 1.1-.861.133-.068.279-.135.425-.199ZM8.009 1.073c.063.04.14.094.226.163.284.226.683.621 1.09 1.28C10.137 3.836 11 6.237 11 10.5c0 .858-.374 1.48-.943 1.893C9.517 12.786 8.781 13 8 13c-.781 0-1.517-.214-2.057-.607C5.373 11.979 5 11.358 5 10.5c0-4.182.86-6.586 1.677-7.928.409-.67.81-1.082 1.096-1.32.09-.076.17-.135.236-.18Z" />
-                            <path
-                                d="M9.479 14.361c-.48.093-.98.139-1.479.139-.5 0-.999-.046-1.479-.139L7.6 15.8a.5.5 0 0 0 .8 0l1.079-1.439Z" />
-                        </svg></a>
-                    <h1>Rocket Prime</h1>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around w-100">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Promoções</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Geek</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Otaku</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Lançamentos</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Categorias
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Camisetas</a></li>
-                                    <li><a class="dropdown-item" href="#">Moletons</a></li>
-                                    <li><a class="dropdown-item" href="#">Canecas</a></li>
-                                    <li><a class="dropdown-item" href="#">Miniaturas</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Mais vendidos</a></li>
-                                </ul>
-                            </li>
-    
-                        </ul>
-                        <form class="d-flex me-2 align-items-center bg-white p-1" role="search">
-                            <input class=" me-2 b-none" type="search" placeholder="Search" aria-label="Search">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-search" viewBox="0 0 16 16">
-                                <path
-                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                            </svg>
-                        </form>
-                    </div>
-                </div>
-            </nav>
+        <nav class="navbar navbar-expand-lg bg-color-primary fixed-top">
+            <div class="container-fluid ">
+                <a class="navbar-brand " href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                        fill="currentColor" class="bi bi-rocket" viewBox="0 0 16 16">
+                        <path d="M8 8c.828 0 1.5-.895 1.5-2S8.828 4 8 4s-1.5.895-1.5 2S7.172 8 8 8Z" />
+                        <path
+                            d="M11.953 8.81c-.195-3.388-.968-5.507-1.777-6.819C9.707 1.233 9.23.751 8.857.454a3.495 3.495 0 0 0-.463-.315A2.19 2.19 0 0 0 8.25.064.546.546 0 0 0 8 0a.549.549 0 0 0-.266.073 2.312 2.312 0 0 0-.142.08 3.67 3.67 0 0 0-.459.33c-.37.308-.844.803-1.31 1.57-.805 1.322-1.577 3.433-1.774 6.756l-1.497 1.826-.004.005A2.5 2.5 0 0 0 2 12.202V15.5a.5.5 0 0 0 .9.3l1.125-1.5c.166-.222.42-.4.752-.57.214-.108.414-.192.625-.281l.198-.084c.7.428 1.55.635 2.4.635.85 0 1.7-.207 2.4-.635.067.03.132.056.196.083.213.09.413.174.627.282.332.17.586.348.752.57l1.125 1.5a.5.5 0 0 0 .9-.3v-3.298a2.5 2.5 0 0 0-.548-1.562l-1.499-1.83ZM12 10.445v.055c0 .866-.284 1.585-.75 2.14.146.064.292.13.425.199.39.197.8.46 1.1.86L13 14v-1.798a1.5 1.5 0 0 0-.327-.935L12 10.445ZM4.75 12.64C4.284 12.085 4 11.366 4 10.5v-.054l-.673.82a1.5 1.5 0 0 0-.327.936V14l.225-.3c.3-.4.71-.664 1.1-.861.133-.068.279-.135.425-.199ZM8.009 1.073c.063.04.14.094.226.163.284.226.683.621 1.09 1.28C10.137 3.836 11 6.237 11 10.5c0 .858-.374 1.48-.943 1.893C9.517 12.786 8.781 13 8 13c-.781 0-1.517-.214-2.057-.607C5.373 11.979 5 11.358 5 10.5c0-4.182.86-6.586 1.677-7.928.409-.67.81-1.082 1.096-1.32.09-.076.17-.135.236-.18Z" />
+                        <path
+                            d="M9.479 14.361c-.48.093-.98.139-1.479.139-.5 0-.999-.046-1.479-.139L7.6 15.8a.5.5 0 0 0 .8 0l1.079-1.439Z" />
+                    </svg></a>
+                <h1>Rocket Prime</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around w-100">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Geek</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Otaku</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Lançamentos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Categorias
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Camisetas</a></li>
+                                <li><a class="dropdown-item" href="#">Moletons</a></li>
+                                <li><a class="dropdown-item" href="#">Canecas</a></li>
+                                <li><a class="dropdown-item" href="#">Miniaturas</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Mais vendidos</a></li>
+                            </ul>
+                        </li>
 
-            <div class="container-fluid p-0">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <div id="carouselExample" class="carousel slide mt-5">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://tfcprw.vtexassets.com/assets/vtex.file-manager-graphql/images/304517db-c340-4b4a-b3cb-1afc58b84ef4___baf3713f75928c2e2acb6462c8a21ad9.jpg"
-                            class="d-block w-100  " alt="...">
-                    </div>
-                    <div class="carousel-item  container-fluid">
-                        <img src="https://www.geekroyal.com.br/cdn/shop/files/geek.jpg?v=1691779545&width=1500"
-                            class="d-block w-100  " alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://acdn.mitiendanube.com/stores/883/908/themes/toluca/1-slide-1691542380236-470076928-7c526e62627f2916feb52e73c60aa71e1691542409-1920-1920.webp?398038708"
-                            class="d-block w-100" alt="...">
-                    </div>
+                    </ul>
+                    <form class="d-flex me-2 align-items-center justify-content-between bg-white p-1 col-md-4"
+                        role="search">
+                        <input class=" me-2 b-none" type="search" placeholder="Search" aria-label="Search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
+                    </form>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
+        </nav>
 
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div id="carouselExample" class="carousel slide mt-5">
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active">
+                                <img src="https://tfcprw.vtexassets.com/assets/vtex.file-manager-graphql/images/304517db-c340-4b4a-b3cb-1afc58b84ef4___baf3713f75928c2e2acb6462c8a21ad9.jpg"
+                                    class="d-block   " alt="...">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="https://imagens.rssolutions.com.br/api/imagem?guid=5FF94E7F&id=1581&comprimir=true"
+                                    class=" d-block w-100" alt="...">
+                            </div>
+                           
+
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
         </div>
-    </div>
-</div>
+        </div>
 
 
     </header>
@@ -110,23 +113,23 @@
     <main>
         <div class="container-fluid">
             <div class="row bg-dark text-white py-4">
-                <div class=" col-12 d-flex justify-content-center  ">
-                    <div class=" col-3 d-flex justify-content-center align-items-center"><svg
+                <div class=" col-12  d-flex justify-content-center  ">
+                    <div class=" col-3   d-flex justify-content-center align-items-center"><svg
                             xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                             class="bi bi-truck" viewBox="0 0 16 16">
                             <path
                                 d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
                         </svg>
-                        <h4 class="m-2" class="m-2">Frete grátis</h4>
+                        <h6 class="m-2" class="m-2 text-sm">Frete grátis</h6>
                     </div>
                     <div class=" col-3 d-flex justify-content-center align-items-center"> <svg
                             xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                             class="bi bi-gift" viewBox="0 0 16 16">
                             <path
-                                d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 14.5V7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zM1 4v2h6V4H1zm8 0v2h6V4H9zm5 3H9v8h4.5a.5.5 0 0 0 .5-.5V7zm-7 8V7H2v7.5a.5.5 0 0 0 .5.5H7z" />
+                                d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 14.5V7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zM1 4v2h6V4H1zm8 0v2h6V4H9zm5 3H9v8h6.5a.5.5 0 0 0 .5-.5V7zm-7 8V7H2v7.5a.5.5 0 0 0 .5.5H7z" />
                         </svg>
-                        <h4 class="m-2">Brinde surpresa
-                        </h4>
+                        <h6 class="m-2 text-sm">Brinde surpresa
+                        </h6>
                     </div>
                     <div class=" col-3 d-flex justify-content-center align-items-center"><svg
                             xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
@@ -135,7 +138,7 @@
                                 d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z" />
                             <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z" />
                         </svg>
-                        <h4 class="m-2">Em até 10x sem juros</h4>
+                        <h6 class="m-2 text-sm">Em até 10x sem juros</h6>
                     </div>
                     <div class=" col-3 d-flex justify-content-center align-items-center"><svg
                             xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
@@ -148,80 +151,315 @@
                                 d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z" />
                             <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z" />
                         </svg>
-                        <h4 class="m-2">Cash back</h4>
+                        <h6 class="m-2 text-sm">Cash back</h6>
                     </div>
                 </div>
             </div>
-            <div class="row ">
-                <div class=" col-lg-4 mt-5  col-md-6 col-sm-12">
+            <div class="row text-center bg-color-bg">
+                <h1 class="mt-5 font-desconto">Produtos com 50% OFF</h1>
+                <div class=" col-lg-3 mt-3  col-md-6 col-sm-10">
                     <div class="card text-center ">
                         <div class="card-body ">
                             <img src="https://static.zattini.com.br/produtos/camiseta-one-piece-luffy/88/Z76-0975-188/Z76-0975-188_zoom1.jpg?ts=1678810702"
                                 alt="">
-                            <h5 class="card-title mt-3">R$69,90</h5>
-                            <p class="card-text">Camiseta One Piece</p>
+                            <h6 class="text-muted">ONE PIECE</h6>
+                            <p class="card-text">Camiseta Monkey D Luffy</p>
+                            <h4 class="card-title mt-3">R$69,90</h4>
+                            <p class="text-primary">Em até 10x sem juros</p>
+                            <div>
+                                <button type="button" class="btn btn-outline-warning ">Adicionar ao
+                                    carrinho</button><button type="button" class="btn btn-outline-success">Comprar
+                                    </button>
+                            </div>
                         </div>
+
                     </div>
                 </div>
-                <div class="col-lg-4 mt-5  col-md-6 col-sm-12">
+                <div class="col-lg-3 mt-3  col-md-6 col-sm-10">
                     <div class="card text-center">
                         <div class="card-body">
-                            <img src="https://img.irroba.com.br/fit-in/600x600/filters:format(webp):fill(transparent):quality(80)/helpfull/catalog/moletom-boku-no-hero-1.20220120095135.png"
-                                alt="">
-                            <h5 class="card-title mt-3">R$119,90</h5>
-                            <p class="card-text">Moletom Boku no Hero.</p>
+                            <img src="https://cf.shopee.com.br/file/e55d905859d5ab532d70aa9df58bf721" alt="">
+
+                            <h6 class="text-muted">ONE PIECE</h6>
+                            <p class="card-text ">Moletom Ronoroa Zoro</p>
+                            <h4 class="card-title mt-3">R$119,90</h4>
+                            <p class="text-primary">Em até 10x sem juros</p>
+                            <div>
+                                <button type="button" class="btn btn-outline-warning ">Adicionar ao
+                                    carrinho</button><button type="button" class="btn btn-outline-success">Comprar
+                                    </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class=" col-lg-4 mt-5  col-md-6 col-sm-12">
+                <div class=" col-lg-3 mt-3  col-md-6 col-sm-10">
                     <div class="card text-center">
                         <div class="card-body">
                             <img src="https://img.irroba.com.br/fit-in/250x250/filters:format(webp):fill(transparent):quality(80)/helpfull/catalog/novos-cadastros/d-nq-np-624084-mlb46834952203-072021-o.png"
                                 alt="">
-                            <h5 class="card-title mt-3">R$119,90</h5>
+                            <h6 class="text-muted">POKEMON</h6>
                             <p class="card-text">Moletom Pikachu</p>
+                            <h4 class="card-title mt-3">R$119,90</h4>
+                            <p class="text-primary">Em até 10x sem juros</p>
+                            <div>
+                                <button type="button" class="btn btn-outline-warning ">Adicionar ao
+                                    carrinho</button><button type="button" class="btn btn-outline-success">Comprar
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-3 mt-3  col-md-6 col-sm-10">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="https://down-br.img.susercontent.com/file/089218019d7d0e2412a4b3714cbda508"
+                                alt="">
+                            <h6 class="text-muted">NARUTO</h6>
+                            <p class="card-text">Moletom Minato Namikaze</p>
+                            <h4 class="card-title mt-3">R$119,90</h4>
+                            <p class="text-primary">Em até 10x
+                            sem juros</p> 
+                            <div>
+                                <button type="button" class="btn btn-outline-warning ">Adicionar ao
+                                    carrinho</button><button type="button" class="btn btn-outline-success">Comprar
+                                    </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row text-center mt-5">
-                <h1>Animes</h1>
-                <div class="col-lg-4 col-md-8 col-sm-12">
+            <div class="row text-center mt-5 bg-color-bg ">
+
+                <div class="col-lg-2 col-md-4 col-sm-6">
                     <div>
                         <div class="card text-center">
                             <div class="card-body anime-card">
-                                <img src="https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2022/06/one-piece.jpg"
-                                    alt="" >
-                                <h5 class="card-title mt-3">One Piece</h5>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9O-mzLTWmjrqFVccdfkSk1sG3PClrB14wuw&usqp=CAU"
+                                    alt="">
+
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-8 col-sm-12">
+                <div class="col-lg-2 col-md-4 col-sm-6">
                     <div>
                         <div class="card text-center">
                             <div class="card-body anime-card">
-                                <img src="https://www.hindustantimes.com/ht-img/img/2023/06/14/1600x900/demon_slayer_season_3_release_1681007034048_1686759381730.jpg"
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/269px-International_Pok%C3%A9mon_logo.svg.png?20150121202211"
                                     alt="" class="img-fluid">
-                                <h5 class="card-title mt-3">Kimetsu no Yaiba</h5>
+
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-8 col-sm-12">
+                <div class="col-lg-2 col-md-4 col-sm-6">
                     <div>
                         <div class="card text-center">
                             <div class="card-body anime-card">
-                                <img src="https://tm.ibxk.com.br/2021/10/05/05091846887061.jpg" alt="">
-                                <h5 class="card-title mt-3">Naruto</h5>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Naruto_logo.svg/2560px-Naruto_logo.svg.png"
+                                    alt="">
+
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div>
+                        <div class="card text-center">
+                            <div class="card-body anime-card">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/DC_Comics_logo.svg/150px-DC_Comics_logo.svg.png"
+                                    alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div>
+                        <div class="card text-center">
+                            <div class="card-body anime-card">
+                                <img src="https://logosmarcas.net/wp-content/uploads/2021/02/Dragon-Ball-Logo-650x366.png"
+                                    alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div>
+                        <div class="card text-center">
+                            <div class="card-body anime-card">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/250px-Marvel_Logo.svg.png"
+                                    alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row text-center bg-color-bg">
+                    <h1 class="mt-5  font-desconto text-white">Mais vendidos</h1>
+                    <div class=" col-lg-3 mt-3  col-md-6 col-sm-10">
+                        <div class="card text-center ">
+                            <div class="card-body ">
+                                <img src="https://cdn.awsli.com.br/600x1000/180/180275/produto/12516087/e9f48139f6.jpg"
+                                    alt="">
+                                <h6 class="text-muted">POKEMON</h6>
+                                <p class="card-text">Caneca Pikachu</p>
+                                <h4 class="card-title mt-3">R$49,90</h4>
+                                <p class="text-primary">Em até 10x sem juros</p>
+                                <div>
+                                  <button type="button" class="btn btn-outline-warning ">Adicionar ao
+                                        carrinho</button><button type="button" class="btn btn-outline-success">Comprar
+                                        </button>
+                                    </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-3  col-md-6 col-sm-10">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="https://www.suika.com.br/7560-thickbox_default/boneco-one-piece-roronoa-zoro-log-file-selection-fight-vol-1-bandai-banpresto.jpg"
+                                    alt="" class="">
+
+                                <h6 class="text-muted">ONE PIECE</h6>
+                                <p class="card-text ">Miniatura Ronoroa Zoro</p>
+                                <h4 class="card-title mt-3">R$79,90</h4>
+                                <p class="text-primary">Em até 10x sem juros</p>
+                                <div>
+                                  <button type="button" class="btn btn-outline-warning ">Adicionar ao
+                                        carrinho</button><button type="button" class="btn btn-outline-success">Comprar
+                                        </button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 mt-3  col-md-6 col-sm-10">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="https://images-americanas.b2w.io/produtos/4006430212/imagens/camiseta-deadpool-unicornio-geek-nerd-camisa-preta-hq-marvel/4006430474_1_large.jpg"
+                                    alt="" class="p-4">
+                                <h6 class="text-muted">MARVEL</h6>
+                                <p class="card-text">Camiseta Deadpool</p>
+                                <h4 class="card-title mt-3">R$119,90</h4>
+                                <p class="text-primary">Em até 10x sem juros</p>
+                                <div>
+                                    <button type="button" class="btn btn-outline-warning ">Adicionar ao
+                                        carrinho</button><button type="button" class="btn btn-outline-success">Comprar
+                                        </button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 mt-3  col-md-6 col-sm-10">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="https://loja-naruto.com/cdn/shop/products/U1b18d2aa4f4a4e49baef8707987498160_1024x1024.jpg?v=1638010493"
+                                    alt="" class="p-3">
+                                <h6 class="text-muted">NARUTO</h6>
+                                <p class="card-text">Moletom Itachi Uchiha</p>
+                                <h4 class="card-title mt-3">R$119,90</h4>
+                                <p class="text-primary">Em até 10x sem juros</p>
+                                <div class=" col-sm-12 col-md-12 col-lg-12  d-flex justify-content-around">
+                                    <button type="button" class="btn btn-outline-warning ">Adicionar ao
+                                        carrinho</button><button type="button" class="btn btn-outline-success">Comprar
+                                        </button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 ">
+                <h3>Feedback de Clientes</h3>
+                <div class="col ">
+                    <div class="card h-80" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Camiseta bonita e com preço bom, gostei muito, vale a pena.</h5>
+                            <h6 class="card-subtitle mb-2 text-primary">Calleri Luciano Moura</h6>
+                            <p class="card-text ">12/05/2023</p>
+                            <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/10392541-cinco-estrelas-satisfeito-produto-avaliacao-revisao-icone-plano-para-aplicativos-e-sites-give-5-stars-people-feedback-illustration-by-giving-rating-flat-online-compras-com-avaliacao-vetor.jpg"
+                                alt="" class="img-fluid">
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-80" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Entrega super rápida e moletom é quentinho e muito confortável.</h5>
+                            <h6 class="card-subtitle mb-2 text-primary ">Giovana Oliveira</h6>
+                            <p class="card-text">15/07/2023</p>
+                            <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/10392541-cinco-estrelas-satisfeito-produto-avaliacao-revisao-icone-plano-para-aplicativos-e-sites-give-5-stars-people-feedback-illustration-by-giving-rating-flat-online-compras-com-avaliacao-vetor.jpg"
+                                alt="">
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Dei a caneca de presente, meu namorado amou.</h5>
+                            <h6 class="card-subtitle mb-2 text-primary">Juliana Santos</h6>
+                            <p class="card-text">05/03/2023</p>
+                            <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/10392541-cinco-estrelas-satisfeito-produto-avaliacao-revisao-icone-plano-para-aplicativos-e-sites-give-5-stars-people-feedback-illustration-by-giving-rating-flat-online-compras-com-avaliacao-vetor.jpg"
+                                alt="">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">A miniatura do Zoro é linda, chegou em 8 dias, recomendo.</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Marcos Antonio</h6>
+                            <p class="card-text">06/01/2023.</p>
+                            <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/10392541-cinco-estrelas-satisfeito-produto-avaliacao-revisao-icone-plano-para-aplicativos-e-sites-give-5-stars-people-feedback-illustration-by-giving-rating-flat-online-compras-com-avaliacao-vetor.jpg"
+                                alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row mt-5 text-white bg-color-footer align-items-center p-3">
+                <div class="col-3 ">
+                    <h2>Receba as</h2>
+                    <h1> NOVIDADES</h1>
+                </div>
+                <div class="col-2">
+                    <p>Fique por dentro de nossos novos produtos e lançamentos do mundo Nerd!</p>
+                </div>
+                <div class="col-7">
+                    <form>
+                        <div class="form-group d-flex">
+                            <input type="email" class="form-control" id="mail" aria-describedby="emailHelp"
+                                placeholder="Insira seu email">
+                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp"
+                                placeholder="Insira seu nome">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
 
+            <div class="row p-5 bg-dark">
+                <div class="col col-3  ">
+                    <h5 class="text-white">Formas de pagamento</h5>
+                    <img src="https://tfcprw.vtexassets.com/assets/vtex/assets-builder/tfcprw.store/1.0.11/formas-pagto-group___2e0b4969be6aa2b3af93664a774b15d0.png"
+                        alt="" class="img-fluid">
+                </div>
+                <div class="row mt-4">
+                    <div class="col text-center">
+                        <h6 class="text-white mt-5">© PBY Marcos</h6>
+                    </div>
+    </footer>
 
 
 

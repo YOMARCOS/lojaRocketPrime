@@ -55,6 +55,10 @@ h5{
     font-weight: 1000;
     color: rgb(255, 0, 0)
 }
+.img-feedback{
+    width: auto;
+    height: 60px;
+}
 
 .card:hover{
     transform: scale(1.05);

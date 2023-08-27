@@ -44,7 +44,7 @@ h5{
     color: black;
 }
 .carousel-inner {
-    max-height: 500px; /* Defina a altura máxima desejada para o carrossel */
+    max-height: 407px; /* Defina a altura máxima desejada para o carrossel */
 }
 
 .carousel-inner img {
@@ -64,3 +64,18 @@ h5{
     text-decoration: overline;
     transition: 0.5s
 }
+@media (min-width: 300px)  {
+    .carousel-inner img {
+        height: 200px;
+        width: 100%;
+    }
+}
+@media (min-width: 600px)  {
+    .carousel-inner img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+
